@@ -1,0 +1,38 @@
+*{
+    color: rgb(85, 74, 179);
+}
+
+body {
+    background-color: rgb(62, 37, 71);
+}
+.crazy-text {
+    font-size: 40px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.unique-text {
+    font-size: 30px;
+    font-family: 'Lucida Handwriting', cursive, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 10px;
+}
+
+#gay-text {
+    font-size: 25px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    background-color: black;
+}
+
+.crazy-text .unique-text #gay-text {
+    color: rgb(179, 74, 85);
+
+}
