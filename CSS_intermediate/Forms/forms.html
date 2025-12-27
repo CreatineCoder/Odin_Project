@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Devansh" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Pass@123" name="password" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="xyz@example.com" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120"><br><br>
+
+        <label for="bio">Bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="50" minlength="10" maxlength="100"></textarea><br><br>
+
+        <input type="submit" value="Submit"><br><br>
+
+        <select name="fashion">
+            <optgroup label="Clothing">
+                <option value="t_shirt">T-Shirts</option>
+                <option value="sweater">Sweaters</option>
+                <option value="coats">Coats</option>
+            </optgroup>
+            <optgroup label="Foot Wear">
+                <option value="sneakers">Sneakers</option>
+                <option value="boots">Boots</option>
+                <option value="sandals">Sandals</option>
+            </optgroup>
+        </select><br><br>       
+
+        <fieldset>
+        <legend>Ticket Type</legend>
+        <div>
+            <input type="radio" id="child" name="ticket_type" value="child">
+            <label for="child">Child</label>
+        </div>
+
+        <div>
+            <input type="radio" id="adult" name="ticket_type" value="adult" checked>
+            <label for="adult">Adult</label>
+        </div>
+
+        <div>
+            <input type="radio" id="senior" name="ticket_type" value="senior">
+            <label for="senior">Senior</label>
+        </div>
+        </fieldset>
+        </fieldset>
+    </form>
+
+</body>
+</html>
